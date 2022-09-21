@@ -36,7 +36,7 @@ public class Employee {
     }
 
     public String toString() {
-        return "Name: " + this.name + ", position: " + this.position + ", email: " + this.email + ", phone: " + this.phone + ", salary: " + this.salary + ", age: " + this.age;
+        return "Name: " + name + ", position: " + position + ", email: " + email + ", phone: " + phone + ", salary: " + salary + ", age: " + age;
     }
 
 }
