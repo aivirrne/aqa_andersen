@@ -1,6 +1,7 @@
-package school.lesson4;
+package school.lesson4.PaymentApp;
 
-class Payment {
+
+public class Payment {
     static class Product {
         String name;
         int price;
@@ -37,16 +38,5 @@ class Payment {
         for (int i = 0; i < count; i++) {
             System.out.println(products[i]);
         }
-    }
-}
-
-public class PaymentApp {
-    public static void main(String[] args) {
-        Payment payment = new Payment(3);
-        payment.addProduct(new Payment.Product("Chocolate", 12));
-        payment.addProduct(new Payment.Product("Cookies", 16));
-        payment.addProduct(new Payment.Product("Milk", 9));
-        payment.addProduct(new Payment.Product("Ice Cream", 10));
-        payment.showProducts();
     }
 }
