@@ -9,5 +9,8 @@
         <module name="school.lesson1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="school.lesson1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
